@@ -517,10 +517,10 @@
                   "Très appréciée des lapins",
                   "Riche en calcium",
                   "Le bouquet de gauche est un bouquet avant floraison",
-                  "Ensuite, la coriandre monte et le feuillage change d'aspect comme le bouquet de droite",
-                  "calcium : 64mg/100g"
+                  "Ensuite, la coriandre monte et le feuillage change d'aspect comme le bouquet de droite"
                ],
                "oxalates": "10mg/100g",
+               "taux_de_calcium": "64mg/100g",
                "saison": [
                   "printemps",
                   "été",

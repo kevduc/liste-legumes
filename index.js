@@ -22,9 +22,9 @@ const tables = [...document.querySelector('#contenu_corps_central').querySelecto
 
 const veggieProperties = [
   ['saison', 'saison'],
-  ['taux_de_calcium', 'taux de calcium'],
+  ['taux_de_calcium', '(?:taux de )?calcium'],
   ['oxalates', 'oxalates'],
-  ['ration', '(?:(?:une|1)?\\s*ration)'],
+  ['ration', '(?:une|1)?\\s*ration'],
 ]
 const veggiePropertiesRegex = new RegExp(
   `^\\s*(?:${veggieProperties
