@@ -20,7 +20,7 @@ const { document } = new JSDOM(rawText).window
 
 const tables = [...document.querySelector('#contenu_corps_central').querySelectorAll('table')]
 
-const veggieProperties = ['saison', 'taux de calcium', 'oxalates', '(?:(?:une|1)\\s*ration)']
+const veggieProperties = ['saison', 'taux de calcium', 'oxalates', '(?:(?:une|1)?\\s*ration)']
 const veggiePropertiesRegex = new RegExp(`^\\s*(${veggieProperties.join('|')})\\s*[:=]?(.*)`, 'i')
 
 const veggies = {
