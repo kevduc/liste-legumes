@@ -21,7 +21,7 @@ const { document } = new JSDOM(rawText).window
 const tables = [...document.querySelector('#contenu_corps_central').querySelectorAll('table')]
 
 const veggieProperties = [
-  ['saison', 'saison'],
+  ['saisons', 'saison'],
   ['calcium', '(?:taux de )?calcium'],
   ['oxalates', 'oxalates'],
   ['ration', '(?:une|1)?\\s*ration'],
@@ -33,7 +33,7 @@ const veggiePropertiesRegex = new RegExp(
   'i'
 )
 
-const veggies = {
+const veggieLists = {
   listes: tables.map((table) => ({
     description: table.previousElementSibling.textContent.trim().replace(/\s*:\s*$/, ''),
     legumes: [...table.rows].map((row) => {
@@ -41,7 +41,7 @@ const veggies = {
         .map((node) => node.textContent ?? node.data)
         .filter((text) => !/^\s*$/.test(text))
 
-      let vegetable = { nom: name }
+      const vegetableTemp = { nom: name }
       info
         .flatMap((text) =>
           text
@@ -60,13 +60,13 @@ const veggies = {
                 ]
               : ['description', text]
 
-          vegetable[property] = vegetable[property] !== undefined ? `${vegetable[property]}\n${value}` : `${value}`
+          vegetableTemp[property] = vegetableTemp[property] !== undefined ? `${vegetableTemp[property]}\n${value}` : `${value}`
         })
 
-      vegetable = {
-        ...vegetable,
-        description: vegetable.description?.split('\n'),
-        saison: vegetable.saison?.split(/[,\/]|et|mais en particulier|mais particulièrement/).map((text) =>
+      const vegetable = {
+        ...vegetableTemp,
+        description: vegetableTemp.description?.split('\n'),
+        saisons: vegetableTemp.saisons?.split(/[,\/]|et|mais en particulier|mais particulièrement/).map((text) =>
           text
             .trim()
             .toLowerCase()
@@ -79,4 +79,4 @@ const veggies = {
   })),
 }
 
-fs.writeFileSync(outputFile, JSON.stringify(veggies, null, 3))
+fs.writeFileSync(outputFile, JSON.stringify(veggieLists, null, 3))
