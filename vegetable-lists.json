@@ -47,7 +47,7 @@
                   "fin de l'été et automne"
                ],
                "taux_de_calcium": "45mg/100g",
-               "une_ration": "3-4 feuilles maxi"
+               "ration": "3-4 feuilles maxi"
             },
             {
                "nom": "Avoine ou herbe à chat",
@@ -1008,7 +1008,7 @@
                   "Le feuillage est comestible mais peu recommandé"
                ],
                "taux_de_calcium": "47-53mg/100g",
-               "une_ration": "20g",
+               "ration": "20g",
                "saison": [
                   "hiver"
                ]

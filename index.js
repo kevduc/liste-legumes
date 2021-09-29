@@ -20,8 +20,18 @@ const { document } = new JSDOM(rawText).window
 
 const tables = [...document.querySelector('#contenu_corps_central').querySelectorAll('table')]
 
-const veggieProperties = ['saison', 'taux de calcium', 'oxalates', '(?:(?:une|1)?\\s*ration)']
-const veggiePropertiesRegex = new RegExp(`^\\s*(${veggieProperties.join('|')})\\s*[:=]?\\s*(.*?)\\s*`, 'i')
+const veggieProperties = [
+  ['saison', 'saison'],
+  ['taux_de_calcium', 'taux de calcium'],
+  ['oxalates', 'oxalates'],
+  ['ration', '(?:(?:une|1)?\\s*ration)'],
+]
+const veggiePropertiesRegex = new RegExp(
+  `^\\s*(?:${veggieProperties
+    .map(([property, regex]) => `(?<${property}>${regex})`)
+    .join('|')})\\s*[:=]?\\s*(?<value>.*?)\\s*$`,
+  'i'
+)
 
 const veggies = {
   listes: tables.map((table) => ({
@@ -41,16 +51,16 @@ const veggies = {
             .filter((text) => text.length > 0)
         )
         .forEach((text) => {
-          const [, property, value] = text.match(veggiePropertiesRegex) ?? [, 'description', text]
-          const cleanProperty = property
-            .replace(/^\s*une|1\s*/, '')
-            .trim()
-            .toLowerCase()
-            .replace(/\s/g, '_')
-          const cleanValue = value.trim()
+          const matches = text.match(veggiePropertiesRegex)
+          const [property, value] =
+            matches !== null
+              ? [
+                  Object.entries(matches.groups).filter(([tag, text]) => tag !== 'value' && text !== undefined)[0][0], // get the first veggie property with a non-undefined value (should be the only one)
+                  matches.groups.value,
+                ]
+              : ['description', text]
 
-          vegetable[cleanProperty] =
-            vegetable[cleanProperty] !== undefined ? `${vegetable[cleanProperty]}\n${cleanValue}` : `${cleanValue}`
+          vegetable[property] = vegetable[property] !== undefined ? `${vegetable[property]}\n${value}` : `${value}`
         })
 
       return {
