@@ -10,7 +10,7 @@
                ],
                "ration": "1 ou 2 brins",
                "calcium": "178-208/100g",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne",
@@ -31,7 +31,7 @@
                   "Probiotique naturel(fructo-oligiossacharidess) à donner en petite quantité",
                   "Peu apprécié"
                ],
-               "saison": [
+               "saisons": [
                   "printemps"
                ]
             },
@@ -43,7 +43,7 @@
                   "Ne donnez ni le fond, ni les \"poils\" qui le recouvrent, ni les feuilles de l'intérieur",
                   "Les feuilles du pied d'artichaut peuvent aussi être consommées s'il s'agit d'une espèce non piquante"
                ],
-               "saison": [
+               "saisons": [
                   "fin de l'été",
                   "automne"
                ],
@@ -55,7 +55,7 @@
                "description": [
                   "Riche en vitamine K et fer"
                ],
-               "saison": [
+               "saisons": [
                   "toute l'année",
                   "peut être cultivée en intérieur"
                ]
@@ -67,7 +67,7 @@
                   "Très apprécié des lapins"
                ],
                "calcium": "120-150mg/100g",
-               "saison": [
+               "saisons": [
                   "été"
                ]
             },
@@ -82,7 +82,7 @@
                "description": [
                   "Mêmes propriétés"
                ],
-               "saison": [
+               "saisons": [
                   "été"
                ]
             },
@@ -91,13 +91,13 @@
                "description": [
                   "Mêmes propriétés"
                ],
-               "saison": [
+               "saisons": [
                   "été"
                ]
             },
             {
                "nom": "Blé ou herbe à chat",
-               "saison": [
+               "saisons": [
                   "toute l'année",
                   "peut être cultivée en intérieur"
                ]
@@ -111,7 +111,7 @@
                   "Les feuilles peuvent être donné occasionnellement",
                   "Riche en oxalates, fer, calcium et vitamine C et glucose"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -126,7 +126,7 @@
                   "Comme le chou ce légume doit être donné en petite quantité",
                   "Ne doit pas être donné aux lapins qui ont des problèmes digestifs ou urinaires chroniques"
                ],
-               "saison": [
+               "saisons": [
                   "été",
                   "automne",
                   "hiver"
@@ -142,7 +142,7 @@
                   "Ne doit pas être donné aux lapins qui ont des problèmes digestifs ou urinaires chroniques"
                ],
                "calcium": "80mg/100g",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
@@ -158,7 +158,7 @@
                "calcium": "42-48mg/100g",
                "oxalates": "190mg/100g",
                "ration": "1 fleur = 20g",
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -171,7 +171,7 @@
                   "Moyennement riche en calcium",
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ]
             },
@@ -186,7 +186,7 @@
                "calcium": "30mg/100g",
                "oxalates": "500mg/100g",
                "ration": "1 petite carotte =37g",
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ]
             },
@@ -195,7 +195,7 @@
                "description": [
                   "idem"
                ],
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ]
             },
@@ -204,7 +204,7 @@
                "description": [
                   "idem mais encore plus sucrée"
                ],
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ]
             },
@@ -213,7 +213,7 @@
                "description": [
                   "idem mais encore plus sucrée"
                ],
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ]
             },
@@ -230,7 +230,7 @@
                "calcium": "41-44mg/100g",
                "oxalates": "190mg/100g",
                "ration": "30g",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
@@ -250,7 +250,7 @@
                ],
                "calcium": "43-60mg/100g",
                "ration": "30g",
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -260,7 +260,7 @@
                "description": [
                   "Riche en calcium"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -271,7 +271,7 @@
                "description": [
                   "Le feuillage est toxique mais la racine peut être consommée en petite quantité"
                ],
-               "saison": [
+               "saisons": [
                   "automne"
                ]
             },
@@ -281,7 +281,7 @@
                   "Riche en calcium",
                   "A éviter si le lapin souffre de problèmes urinaires chroniques"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -293,7 +293,7 @@
                   "Riche en calcium",
                   "A éviter si le lapin souffre de problèmes urinaires chroniques"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -304,7 +304,7 @@
                   "Riche en calcium",
                   "A éviter si le lapin souffre de problèmes urinaires chroniques"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -315,7 +315,7 @@
                   "Riche en calcium",
                   "A éviter si le lapin souffre de problèmes urinaires chroniques"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -329,7 +329,7 @@
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
                "calcium": "92 mg/100g",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
@@ -346,7 +346,7 @@
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
                "calcium": "77 mg/100g",
-               "saison": [
+               "saisons": [
                   "toute l'année",
                   "automne",
                   "hiver"
@@ -361,7 +361,7 @@
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
                "calcium": "40mg/100g",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "automne"
                ]
@@ -377,7 +377,7 @@
                ],
                "calcium": "98-140mg/100g",
                "oxalates": "20mg/100g",
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -393,7 +393,7 @@
                ],
                "calcium": "26-35mg/100g",
                "ration": "1 chou = 23g",
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -403,7 +403,7 @@
                "description": [
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
-               "saison": [
+               "saisons": [
                   "automne"
                ]
             },
@@ -421,7 +421,7 @@
                "calcium": "20mg/100g",
                "oxalates": "150mg/100g",
                "ration": "1 fleur = 37g",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "automne",
                   "hiver"
@@ -433,7 +433,7 @@
                   "Fleurs et feuilles",
                   "Mêmes caractéristiques que le chou fleur blanc"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "automne",
                   "hiver"
@@ -445,7 +445,7 @@
                   "Fleurs et feuilles",
                   "Mêmes caractéristiques que le chou fleur blanc"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -456,7 +456,7 @@
                   "Fleurs et feuilles",
                   "Mêmes caractéristiques que le chou fleur blanc"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "automne",
                   "hiver"
@@ -475,7 +475,7 @@
                "calcium": "98-140mg/100g",
                "oxalates": "20mg/100g",
                "ration": "1 petite feuille ou 1/2 grande feuille = 14g",
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -487,7 +487,7 @@
                   "Le bulbe ainsi que les feuilles sont comestibles",
                   "Les variétés verte et rouge sont comestibles mais les lapins préfèrent la verte"
                ],
-               "saison": [
+               "saisons": [
                   "automne"
                ]
             },
@@ -496,7 +496,7 @@
                "description": [
                   "Mêmes caractéristiques que la version verte"
                ],
-               "saison": [
+               "saisons": [
                   "automne"
                ]
             },
@@ -506,7 +506,7 @@
                   "Comme tous les choux il doit être donné en petite quantité",
                   "S'utilise comme le chou fleur"
                ],
-               "saison": [
+               "saisons": [
                   "automne"
                ]
             },
@@ -526,7 +526,7 @@
                ],
                "oxalates": "10mg/100g",
                "calcium": "64mg/100g",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -539,7 +539,7 @@
                   "C'est un légume qui rebute un peu au début mais le lapin s'y fait rapidement"
                ],
                "calcium": "23mg/100g",
-               "saison": [
+               "saisons": [
                   "été"
                ]
             },
@@ -552,7 +552,7 @@
                "calcium": "160-210mg/100g",
                "oxalates": "310mg/100g",
                "ration": "6g",
-               "saison": [
+               "saisons": [
                   "printemps"
                ]
             },
@@ -565,7 +565,7 @@
                "calcium": "160-210mg/100g",
                "oxalates": "310mg/100g",
                "ration": "6g",
-               "saison": [
+               "saisons": [
                   "printemps"
                ]
             },
@@ -576,7 +576,7 @@
                ],
                "calcium": "200-210mg/100g",
                "oxalates": "310mg/100g",
-               "saison": [
+               "saisons": [
                   "printemps"
                ]
             },
@@ -590,7 +590,7 @@
                "oxalates": "110mg/100g",
                "calcium": "50mg/100g",
                "ration": "5 feuilles = 45g",
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -600,7 +600,7 @@
                "description": [
                   "Même qualités que la variété blanche"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -615,7 +615,7 @@
                ],
                "calcium": "50-125mg/100g",
                "oxalates": "970mg/100g",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -629,7 +629,7 @@
                   "Comme le chou il doit être donné en petite quantité",
                   "Ne doit pas être donné aux lapins qui ont des problèmes digestifs ou urinaires chroniques"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -642,7 +642,7 @@
                   "Comme le chou il doit être donné en petite quantité",
                   "Ne doit pas être donné aux lapins qui ont des problèmes digestifs ou urinaires chroniques"
                ],
-               "saison": [
+               "saisons": [
                   "hiver",
                   "printemps"
                ]
@@ -654,7 +654,7 @@
                   "Attention, l'estragon du mexique n'est pas de l'estragon et il a en plus des propriétés hallucinogènes",
                   "Il faut donc donner aux lapins la version classique de l'estragon (Artemisia dracunculus)"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été"
                ]
@@ -664,7 +664,7 @@
                "description": [
                   "Riches en calcium, fer et vitamines A B1 B2 B6 et C"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -680,7 +680,7 @@
                ],
                "calcium": "100-110mg/100g",
                "ration": "1/4 de petit fenouil = 40g",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -691,7 +691,7 @@
                "description": [
                   "Riche en potassium, calcium et vitamine A, B8 et B9C"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -702,7 +702,7 @@
                "description": [
                   "Riche en potassium, calcium et vitamine A, B8 et B9C"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -713,7 +713,7 @@
                "description": [
                   "C'est un aliment très apprécié !"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -724,7 +724,7 @@
                "description": [
                   "C'est un aliment très apprécié !"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -738,7 +738,7 @@
                   "Riche en vitamine A, B2, C et calcium"
                ],
                "calcium": "22mg/100g",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -751,7 +751,7 @@
                   "Les pétales sont eux aussi comestibles, mais évitez de donner les fleurs entières, votre lapin ferait une orgies de graines ce qui pourrait provoquer des troubles digestifs",
                   "( au pire ne pas dépasser 10 graines par lapin)"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -764,7 +764,7 @@
                   "A donner en petite quantité(2-3)"
                ],
                "calcium": "50-65mg/100g",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
@@ -777,14 +777,14 @@
                ],
                "calcium": "35mg/100g",
                "ration": "4 pieds =18g",
-               "saison": [
+               "saisons": [
                   "hiver",
                   "printemps"
                ]
             },
             {
                "nom": "Marjolaine",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été"
                ]
@@ -796,7 +796,7 @@
                ],
                "calcium": "210mg/100g",
                "ration": "3 brins =6g",
-               "saison": [
+               "saisons": [
                   "toute l'année",
                   "printemps",
                   "été"
@@ -804,27 +804,27 @@
             },
             {
                "nom": "Mizuna",
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ]
             },
             {
                "nom": "Moutarde rouge",
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ],
                "calcium": "104mg/100g"
             },
             {
                "nom": "Moutarde",
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ],
                "calcium": "104mg/100g"
             },
             {
                "nom": "Moutarde violette dentelée",
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ],
                "calcium": "104mg/100g"
@@ -839,7 +839,7 @@
                "calcium": "32-48mg/100g\ndes feuilles :105-136mg/100g",
                "oxalates": "210mg/100g\n50mg/100g",
                "ration": "1/4 de petit navet = 20g\n5 feuilles =10g",
-               "saison": [
+               "saisons": [
                   "printemps automne hiver"
                ]
             },
@@ -851,7 +851,7 @@
             },
             {
                "nom": "origan",
-               "saison": [
+               "saisons": [
                   "été"
                ]
             },
@@ -860,7 +860,7 @@
                "description": [
                   "Ne pique pas contrairement à l'ortie sauvage"
                ],
-               "saison": [
+               "saisons": [
                   "printemps"
                ]
             },
@@ -878,7 +878,7 @@
                "calcium": "37-41mg/100g",
                "oxalates": "70mg/100g",
                "ration": "1 rondelle",
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -895,7 +895,7 @@
                "calcium": "122-245mg/100g",
                "oxalates": "1700mg/100g",
                "ration": "2 gros brins = 9g de persil",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -921,7 +921,7 @@
                ],
                "calcium": "140-160mg/100g",
                "ration": "1 gros pied de pissenlit = 37g",
-               "saison": [
+               "saisons": [
                   "toute l'année",
                   "beau au printemps"
                ]
@@ -932,7 +932,7 @@
                   "Mêmes caractéristiques",
                   "il est moins riche en calcium"
                ],
-               "saison": [
+               "saisons": [
                   "toute l'année",
                   "beau au printemps"
                ]
@@ -942,7 +942,7 @@
                "description": [
                   "En petite quantité uniquement"
                ],
-               "saison": [
+               "saisons": [
                   "été"
                ]
             },
@@ -954,7 +954,7 @@
                   "Il faut bien sûr retirer les pépins et la partie intérieure blanche qui est indigeste"
                ],
                "calcium": "9mg/100g",
-               "saison": [
+               "saisons": [
                   "été"
                ]
             },
@@ -962,7 +962,7 @@
                "nom": "Pourpier doré",
                "calcium": "79mg/100g",
                "ration": "10g de pourpier",
-               "saison": [
+               "saisons": [
                   "toute l'année"
                ]
             },
@@ -974,7 +974,7 @@
             },
             {
                "nom": "Romarin",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -982,28 +982,28 @@
             },
             {
                "nom": "Ronces ou feuilles de mûrier",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été"
                ]
             },
             {
                "nom": "Roquette sauvage",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
             },
             {
                "nom": "Roquette plein champs",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
             },
             {
                "nom": "Roquette cultivée-Ruccola",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
@@ -1017,7 +1017,7 @@
                ],
                "calcium": "47-53mg/100g",
                "ration": "20g",
-               "saison": [
+               "saisons": [
                   "hiver"
                ]
             },
@@ -1026,13 +1026,13 @@
                "description": [
                   "Mêmes caractéristiques que le rutabaga à collet rose"
                ],
-               "saison": [
+               "saisons": [
                   "hiver"
                ]
             },
             {
                "nom": "Salade Batavia",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -1043,7 +1043,7 @@
             },
             {
                "nom": "Salade Batavia rouge",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -1060,7 +1060,7 @@
                   "Elle ressemble à de la feuille de chêne, en plus croquante, les lapins adorent!",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ],
-               "saison": [
+               "saisons": [
                   "été"
                ]
             },
@@ -1078,7 +1078,7 @@
                   "Elle ressemble à de la feuille de chêne, en plus croquante, les lapins adorent!",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -1130,7 +1130,7 @@
                ],
                "calcium": "20mg/100g",
                "oxalates": "300mg/100g",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -1142,7 +1142,7 @@
                   "L'une des salades préférées des lapins car elles est bien croquante",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -1153,7 +1153,7 @@
                   "Riche en calcium et vitamine A",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été",
                   "automne"
@@ -1167,21 +1167,21 @@
                   "La sucrine doit être bien verte et croquante",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
             },
             {
                "nom": "Sarriette",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
             },
             {
                "nom": "Serpolet",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
@@ -1201,21 +1201,21 @@
                   "Comme le chou il doit être donné en petite quantité",
                   "Ne doit pas être donné aux lapins qui ont des problèmes digestifs ou urinaires"
                ],
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été"
                ]
             },
             {
                "nom": "Thym",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
             },
             {
                "nom": "Thym citron",
-               "saison": [
+               "saisons": [
                   "été",
                   "automne"
                ]
@@ -1232,7 +1232,7 @@
                ],
                "calcium": "10-15mg/100g",
                "ration": "30g",
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -1242,7 +1242,7 @@
                "description": [
                   "Mêmes caractéristiques"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -1252,7 +1252,7 @@
                "description": [
                   "Mêmes caractéristiques que le topinambour blond ou rose"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
@@ -1262,14 +1262,14 @@
                "description": [
                   "Riche en calcium"
                ],
-               "saison": [
+               "saisons": [
                   "automne",
                   "hiver"
                ]
             },
             {
                "nom": "verveine citron",
-               "saison": [
+               "saisons": [
                   "printemps",
                   "été"
                ]
