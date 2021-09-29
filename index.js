@@ -41,7 +41,7 @@ const veggies = {
         .map((node) => node.textContent ?? node.data)
         .filter((text) => !/^\s*$/.test(text))
 
-      const vegetable = { nom: name }
+      let vegetable = { nom: name }
       info
         .flatMap((text) =>
           text
@@ -63,16 +63,18 @@ const veggies = {
           vegetable[property] = vegetable[property] !== undefined ? `${vegetable[property]}\n${value}` : `${value}`
         })
 
-      return {
+      vegetable = {
         ...vegetable,
         description: vegetable.description?.split('\n'),
-        saison: vegetable.saison?.split(',').map((text) =>
+        saison: vegetable.saison?.split(/[,\/]|et/).map((text) =>
           text
             .trim()
             .toLowerCase()
             .replace(/(?:^|(?<=\s))eté(?:(?=\s)|$)/g, 'été')
         ),
       }
+
+      return vegetable
     }),
   })),
 }
