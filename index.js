@@ -41,7 +41,7 @@ const veggieLists = {
         .map((node) => node.textContent ?? node.data)
         .filter((text) => !/^\s*$/.test(text))
 
-      const vegetableTemp = { nom: name }
+      const vegetableTemp = { nom: name.trim() }
       info
         .flatMap((text) =>
           text
@@ -79,12 +79,12 @@ const veggieLists = {
   })),
 }
 
-const allVeggies = [...veggieLists.listes[0].legumes, ...veggieLists.listes[1].legumes]
-const seasonRegex = /^printemps|été|automne|hiver|toute l'année$/
-console.table(
-  allVeggies
-    .map((veggie) => veggie.saisons?.map((saison) => [saison, seasonRegex.test(saison)]))
-    .filter((tests) => tests?.some(([, result]) => result === false))
-)
+// const allVeggies = [...veggieLists.listes[0].legumes, ...veggieLists.listes[1].legumes]
+// const seasonRegex = /^printemps|été|automne|hiver|toute l'année$/
+// console.table(
+//   allVeggies
+//     .map((veggie) => veggie.saisons?.map((saison) => [saison, seasonRegex.test(saison)]))
+//     .filter((tests) => tests?.some(([, result]) => result === false))
+// )
 
 fs.writeFileSync(outputFile, JSON.stringify(veggieLists, null, 3))
