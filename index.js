@@ -4,10 +4,17 @@ import fetch from 'node-fetch'
 import { JSDOM } from 'jsdom'
 
 const outputFile = 'vegetables.json'
-
+const inputFile = 'input.html'
 const url = 'https://www.ladureviedulapinurbain.com/listelegumes.php'
 
-const rawText = await (await fetch(url)).text()
+let rawText = null
+
+if (fs.existsSync(inputFile)) {
+  rawText = fs.readFileSync(inputFile, 'utf8')
+} else {
+  rawText = await (await fetch(url)).text()
+  fs.writeFileSync(inputFile, rawText)
+}
 
 const { document } = new JSDOM(rawText).window
 
@@ -32,5 +39,4 @@ const veggies = tables.map((table) => [
   }),
 ])
 
-// console.log(JSON.stringify(veggies))
 fs.writeFileSync(outputFile, JSON.stringify(veggies, null, 3))
