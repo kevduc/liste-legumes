@@ -1,0 +1,25 @@
+{
+  "name": "liste-legumes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevduc/liste-legumes.git"
+  },
+  "keywords": [],
+  "author": "kevduc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevduc/liste-legumes/issues"
+  },
+  "homepage": "https://github.com/kevduc/liste-legumes#readme",
+  "dependencies": {
+    "jsdom": "^17.0.0",
+    "node-fetch": "^3.0.0"
+  },
+  "type": "module"
+}
