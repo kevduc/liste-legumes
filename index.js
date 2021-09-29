@@ -56,7 +56,12 @@ const veggies = {
       return {
         ...vegetable,
         description: vegetable.description?.split('\n'),
-        saison: vegetable.saison?.split(',').map((text) => text.trim().toLowerCase()),
+        saison: vegetable.saison?.split(',').map((text) =>
+          text
+            .trim()
+            .toLowerCase()
+            .replace(/(?:^|(?<=\s))eté(?:(?=\s)|$)/g, 'été')
+        ),
       }
     }),
   })),
