@@ -21,11 +21,11 @@ const { document } = new JSDOM(rawText).window
 const tables = [...document.querySelector('#contenu_corps_central').querySelectorAll('table')]
 
 const veggieProperties = ['saison', 'taux de calcium', 'oxalates', '(?:(?:une|1)?\\s*ration)']
-const veggiePropertiesRegex = new RegExp(`^\\s*(${veggieProperties.join('|')})\\s*[:=]?(.*)`, 'i')
+const veggiePropertiesRegex = new RegExp(`^\\s*(${veggieProperties.join('|')})\\s*[:=]?\\s*(.*?)\\s*`, 'i')
 
 const veggies = {
   listes: tables.map((table) => ({
-    description: table.previousElementSibling.textContent.trim().replace(/\s*:\s*/, ''),
+    description: table.previousElementSibling.textContent.trim().replace(/\s*:\s*$/, ''),
     legumes: [...table.rows].map((row) => {
       const [name, ...info] = [...row.cells[1].childNodes]
         .map((node) => node.textContent ?? node.data)
