@@ -20,8 +20,8 @@ const { document } = new JSDOM(rawText).window
 
 const tables = [...document.querySelector('#contenu_corps_central').querySelectorAll('table')]
 
-const veggieProperties = ['saison', 'taux de calcium', 'oxalates']
-const veggiePropertiesRegex = new RegExp(`^\\s*(${veggieProperties.join('|')})\\s*:?(.*)`, 'i')
+const veggieProperties = ['saison', 'taux de calcium', 'oxalates', '(?:(?:une|1)\\s*ration)']
+const veggiePropertiesRegex = new RegExp(`^\\s*(${veggieProperties.join('|')})\\s*[:=]?(.*)`, 'i')
 
 const veggies = {
   listes: tables.map((table) => ({
@@ -42,7 +42,11 @@ const veggies = {
         )
         .forEach((text) => {
           const [, property, value] = text.match(veggiePropertiesRegex) ?? [, 'description', text]
-          const cleanProperty = property.trim().toLowerCase().replace(/\s/g, '_')
+          const cleanProperty = property
+            .replace(/^\s*une|1\s*/, '')
+            .trim()
+            .toLowerCase()
+            .replace(/\s/g, '_')
           const cleanValue = value.trim()
 
           vegetable[cleanProperty] =
