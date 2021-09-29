@@ -347,7 +347,8 @@
                ],
                "calcium": "77 mg/100g",
                "saison": [
-                  "toute l'année mais en particulier automne",
+                  "toute l'année",
+                  "automne",
                   "hiver"
                ]
             },
@@ -796,7 +797,8 @@
                "calcium": "210mg/100g",
                "ration": "3 brins =6g",
                "saison": [
-                  "toute l'année mais en particulier printemps",
+                  "toute l'année",
+                  "printemps",
                   "été"
                ]
             },
@@ -920,7 +922,8 @@
                "calcium": "140-160mg/100g",
                "ration": "1 gros pied de pissenlit = 37g",
                "saison": [
-                  "toute l'année mais particulièrement beau au printemps"
+                  "toute l'année",
+                  "beau au printemps"
                ]
             },
             {
@@ -930,7 +933,8 @@
                   "il est moins riche en calcium"
                ],
                "saison": [
-                  "toute l'année mais particulièrement beau au printemps"
+                  "toute l'année",
+                  "beau au printemps"
                ]
             },
             {

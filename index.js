@@ -66,7 +66,7 @@ const veggies = {
       vegetable = {
         ...vegetable,
         description: vegetable.description?.split('\n'),
-        saison: vegetable.saison?.split(/[,\/]|et/).map((text) =>
+        saison: vegetable.saison?.split(/[,\/]|et|mais en particulier|mais particulièrement/).map((text) =>
           text
             .trim()
             .toLowerCase()
