@@ -22,7 +22,7 @@ const tables = [...document.querySelector('#contenu_corps_central').querySelecto
 
 const veggieProperties = [
   ['saison', 'saison'],
-  ['taux_de_calcium', '(?:taux de )?calcium'],
+  ['calcium', '(?:taux de )?calcium'],
   ['oxalates', 'oxalates'],
   ['ration', '(?:une|1)?\\s*ration'],
 ]

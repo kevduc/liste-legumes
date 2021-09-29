@@ -9,7 +9,7 @@
                   "Herbe très appréciée des lapins, peut être remplacée par du fenouil sauvage ou les plumets du fenouil"
                ],
                "ration": "1 ou 2 brins",
-               "taux_de_calcium": "178-208/100g",
+               "calcium": "178-208/100g",
                "saison": [
                   "printemps",
                   "été",
@@ -46,7 +46,7 @@
                "saison": [
                   "fin de l'été et automne"
                ],
-               "taux_de_calcium": "45mg/100g",
+               "calcium": "45mg/100g",
                "ration": "3-4 feuilles maxi"
             },
             {
@@ -65,7 +65,7 @@
                   "Riche en vitamine K et fer",
                   "Très apprécié des lapins"
                ],
-               "taux_de_calcium": "120-150mg/100g",
+               "calcium": "120-150mg/100g",
                "saison": [
                   "été"
                ]
@@ -130,7 +130,7 @@
                   "automne",
                   "hiver"
                ],
-               "taux_de_calcium": "80-100mg/100g"
+               "calcium": "80-100mg/100g"
             },
             {
                "nom": "Blettes, cardes ou poirées de couleurs",
@@ -140,7 +140,7 @@
                   "Comme le chou il doit être donné en petite quantité",
                   "Ne doit pas être donné aux lapins qui ont des problèmes digestifs ou urinaires chroniques"
                ],
-               "taux_de_calcium": "80mg/100g",
+               "calcium": "80mg/100g",
                "saison": [
                   "été",
                   "automne"
@@ -154,7 +154,7 @@
                   "Moyennement riche en calcium",
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
-               "taux_de_calcium": "42-48mg/100g",
+               "calcium": "42-48mg/100g",
                "oxalates": "190mg/100g",
                "ration": "1 fleur = 20g",
                "saison": [
@@ -182,7 +182,7 @@
                   "Riche en vitamine A, B9, C",
                   "Une alimentation trop riche en carottes peut provoquer des problèmes digestifs chez certains lapins"
                ],
-               "taux_de_calcium": "30mg/100g",
+               "calcium": "30mg/100g",
                "oxalates": "500mg/100g",
                "ration": "1 petite carotte =37g",
                "saison": [
@@ -226,7 +226,7 @@
                   "C'est un légume considéré par le lapin comme une véritable gourmandise",
                   "C'est aussi un bon diurétique"
                ],
-               "taux_de_calcium": "41-44mg/100g",
+               "calcium": "41-44mg/100g",
                "oxalates": "190mg/100g",
                "ration": "30g",
                "saison": [
@@ -247,7 +247,7 @@
                   "Feuilles et racine",
                   "Peu calorique, riche en fibres"
                ],
-               "taux_de_calcium": "43-60mg/100g",
+               "calcium": "43-60mg/100g",
                "ration": "30g",
                "saison": [
                   "automne",
@@ -327,7 +327,7 @@
                   "Peut provoquer des ballonnements chez certains lapins",
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
-               "taux_de_calcium": "92 mg/100g",
+               "calcium": "92 mg/100g",
                "saison": [
                   "été",
                   "automne"
@@ -344,7 +344,7 @@
                   "Evitez de donner la partie blanche qui n'a pas d'intérêt",
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
-               "taux_de_calcium": "77 mg/100g",
+               "calcium": "77 mg/100g",
                "saison": [
                   "toute l'année mais en particulier automne/hiver"
                ]
@@ -357,7 +357,7 @@
                   "Peut provoquer des ballonnements chez certains lapins",
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
-               "taux_de_calcium": "40mg/100g",
+               "calcium": "40mg/100g",
                "saison": [
                   "printemps et automne"
                ]
@@ -371,7 +371,7 @@
                   "Peut provoquer des ballonnements chez certains lapins",
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
-               "taux_de_calcium": "98-140mg/100g",
+               "calcium": "98-140mg/100g",
                "oxalates": "20mg/100g",
                "saison": [
                   "automne et hiver"
@@ -386,7 +386,7 @@
                   "Attention, les feuilles doivent être bien vertes sinon elles sont toxiques",
                   "Comme tous les choux il doit être donné en petite quantité( 1 par repas maxi car il détruit certains nutiments d'autres légumes)"
                ],
-               "taux_de_calcium": "26-35mg/100g",
+               "calcium": "26-35mg/100g",
                "ration": "1 chou = 23g",
                "saison": [
                   "automne",
@@ -413,7 +413,7 @@
                   "Le coeur est à éviter chez les lapins fragiles, donnez plutôt les feuilles",
                   "C'est un légume généralement apprécié des lapins"
                ],
-               "taux_de_calcium": "20mg/100g",
+               "calcium": "20mg/100g",
                "oxalates": "150mg/100g",
                "ration": "1 fleur = 37g",
                "saison": [
@@ -467,7 +467,7 @@
                   "Les feuilles vertes( à l'extérieur) ne doivent pas être données aux lapins qui ont des problèmes digestifs ou urinaires chroniques",
                   "C'est un légume très apprécié"
                ],
-               "taux_de_calcium": "98-140mg/100g",
+               "calcium": "98-140mg/100g",
                "oxalates": "20mg/100g",
                "ration": "1 petite feuille ou 1/2 grande feuille = 14g",
                "saison": [
@@ -520,7 +520,7 @@
                   "Ensuite, la coriandre monte et le feuillage change d'aspect comme le bouquet de droite"
                ],
                "oxalates": "10mg/100g",
-               "taux_de_calcium": "64mg/100g",
+               "calcium": "64mg/100g",
                "saison": [
                   "printemps",
                   "été",
@@ -533,7 +533,7 @@
                   "Attention ne pas donner les pois qui eux sont toxiques",
                   "C'est un légume qui rebute un peu au début mais le lapin s'y fait rapidement"
                ],
-               "taux_de_calcium": "23mg/100g",
+               "calcium": "23mg/100g",
                "saison": [
                   "été"
                ]
@@ -544,7 +544,7 @@
                   "riche en vitamines A et C, riche en calcium, à donner en petite quantité",
                   "Propriétés diurétiques"
                ],
-               "taux_de_calcium": "160-210mg/100g",
+               "calcium": "160-210mg/100g",
                "oxalates": "310mg/100g",
                "ration": "6g",
                "saison": [
@@ -557,7 +557,7 @@
                   "riche en vitamines A et C, riche en calcium, à donner en petite quantité",
                   "Propriétés diurétiques"
                ],
-               "taux_de_calcium": "160-210mg/100g",
+               "calcium": "160-210mg/100g",
                "oxalates": "310mg/100g",
                "ration": "6g",
                "saison": [
@@ -569,7 +569,7 @@
                "description": [
                   "riche en vitamines A et C, riche en calcium, à donner en petite quantité"
                ],
-               "taux_de_calcium": "200-210mg/100g",
+               "calcium": "200-210mg/100g",
                "oxalates": "310mg/100g",
                "saison": [
                   "printemps"
@@ -583,7 +583,7 @@
                   "A éviter chez le lapin ayant des problèmes urinaires chroniques"
                ],
                "oxalates": "110mg/100g",
-               "taux_de_calcium": "50mg/100g",
+               "calcium": "50mg/100g",
                "ration": "5 feuilles = 45g",
                "saison": [
                   "automne",
@@ -608,7 +608,7 @@
                   "Comme le chou il doit être donné en petite quantité",
                   "Ne doit pas être donné aux lapins qui ont des problèmes digestifs ou urinaires chroniques"
                ],
-               "taux_de_calcium": "50-125mg/100g",
+               "calcium": "50-125mg/100g",
                "oxalates": "970mg/100g",
                "saison": [
                   "printemps",
@@ -673,7 +673,7 @@
                   "Riche en potassium, calcium et vitamine A, B8 et B9C, peu calorique et diurétique",
                   "Peut être donné aux lapines gestantes et allaitantes, car il favorise la lactation"
                ],
-               "taux_de_calcium": "100-110mg/100g",
+               "calcium": "100-110mg/100g",
                "ration": "1/4 de petit fenouil = 40g",
                "saison": [
                   "printemps",
@@ -732,7 +732,7 @@
                   "Attention, les feuilles doivent être bien vertes sinon elles sont toxiques",
                   "Riche en vitamine A, B2, C et calcium"
                ],
-               "taux_de_calcium": "22mg/100g",
+               "calcium": "22mg/100g",
                "saison": [
                   "printemps",
                   "été",
@@ -758,7 +758,7 @@
                   "Ne pas donner de haricots verts aux lapins qui ont un système digestif fragile, ils peuvent les rendre malades",
                   "A donner en petite quantité(2-3)"
                ],
-               "taux_de_calcium": "50-65mg/100g",
+               "calcium": "50-65mg/100g",
                "saison": [
                   "été",
                   "automne"
@@ -770,7 +770,7 @@
                   "Bien nettoyer car la mâche contient beaucoup de sable",
                   "Riche en vitamine A, B, C"
                ],
-               "taux_de_calcium": "35mg/100g",
+               "calcium": "35mg/100g",
                "ration": "4 pieds =18g",
                "saison": [
                   "hiver",
@@ -789,7 +789,7 @@
                "description": [
                   "Riche en calcium"
                ],
-               "taux_de_calcium": "210mg/100g",
+               "calcium": "210mg/100g",
                "ration": "3 brins =6g",
                "saison": [
                   "toute l'année mais en particulier printemps",
@@ -807,21 +807,21 @@
                "saison": [
                   "toute l'année"
                ],
-               "taux_de_calcium": "104mg/100g"
+               "calcium": "104mg/100g"
             },
             {
                "nom": "Moutarde",
                "saison": [
                   "toute l'année"
                ],
-               "taux_de_calcium": "104mg/100g"
+               "calcium": "104mg/100g"
             },
             {
                "nom": "Moutarde violette dentelée",
                "saison": [
                   "toute l'année"
                ],
-               "taux_de_calcium": "104mg/100g"
+               "calcium": "104mg/100g"
             },
             {
                "nom": "Navet rose ou blanc, rave (Suisse)",
@@ -830,7 +830,7 @@
                   "Feuilles riches en calcium",
                   "Racine moyennement riche"
                ],
-               "taux_de_calcium": "32-48mg/100g\ndes feuilles :105-136mg/100g",
+               "calcium": "32-48mg/100g\ndes feuilles :105-136mg/100g",
                "oxalates": "210mg/100g\n50mg/100g",
                "ration": "1/4 de petit navet = 20g\n5 feuilles =10g",
                "saison": [
@@ -869,7 +869,7 @@
                   "Diurétique",
                   "Ne pas en donner à la fin de l'hiver, il devient très fibreux et extrêmement dur"
                ],
-               "taux_de_calcium": "37-41mg/100g",
+               "calcium": "37-41mg/100g",
                "oxalates": "70mg/100g",
                "ration": "1 rondelle",
                "saison": [
@@ -886,7 +886,7 @@
                   "Propriétés diurétiques",
                   "Ne doit pas être donné aux lapines gestantes et allaitantes, car il coupe parfois la lactation"
                ],
-               "taux_de_calcium": "122-245mg/100g",
+               "calcium": "122-245mg/100g",
                "oxalates": "1700mg/100g",
                "ration": "2 gros brins = 9g de persil",
                "saison": [
@@ -913,7 +913,7 @@
                   "L'effet diurétique du pissenlit\tpeut apporter une aide dans le traitement des infections urinaires, en revanche il est déconseillé en cas d'affection rénale",
                   "Les urines sont souvent assez rouges après la consommation de pissenlit, c'est tout à fait normal"
                ],
-               "taux_de_calcium": "140-160mg/100g",
+               "calcium": "140-160mg/100g",
                "ration": "1 gros pied de pissenlit = 37g",
                "saison": [
                   "toute l'année mais particulièrement beau au printemps"
@@ -945,14 +945,14 @@
                   "C'est juste un petit \"plus\" pour varier\" le menu",
                   "Il faut bien sûr retirer les pépins et la partie intérieure blanche qui est indigeste"
                ],
-               "taux_de_calcium": "9mg/100g",
+               "calcium": "9mg/100g",
                "saison": [
                   "été"
                ]
             },
             {
                "nom": "Pourpier doré",
-               "taux_de_calcium": "79mg/100g",
+               "calcium": "79mg/100g",
                "ration": "10g de pourpier",
                "saison": [
                   "toute l'année"
@@ -1007,7 +1007,7 @@
                   "Ce légume est riche en amidon et ne doit pas être donné aux lapins qui souffrent déjà de crottes molles chroniques et qui ont une alimentation riche ( granulés)",
                   "Le feuillage est comestible mais peu recommandé"
                ],
-               "taux_de_calcium": "47-53mg/100g",
+               "calcium": "47-53mg/100g",
                "ration": "20g",
                "saison": [
                   "hiver"
@@ -1082,7 +1082,7 @@
                   "Riche en calcium comme toutes les chicorées",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ],
-               "taux_de_calcium": "55mg/100g"
+               "calcium": "55mg/100g"
             },
             {
                "nom": "salade Laitue asperge",
@@ -1120,7 +1120,7 @@
                   "L'une des salades préférées des lapins car elles est bien croquante",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ],
-               "taux_de_calcium": "20mg/100g",
+               "calcium": "20mg/100g",
                "oxalates": "300mg/100g",
                "saison": [
                   "printemps",
@@ -1222,7 +1222,7 @@
                   "Les feuilles sont elles aussi comestibles mais elles doivent être données en petites quantités, ce n'est pas un fourrage et elles deviennent toxiques si elles sont données en grande quantité ou très souvent",
                   "On peut se contenter de le laver et de le brosser si ça forme est trop complexe pour permettre de l'éplucher"
                ],
-               "taux_de_calcium": "10-15mg/100g",
+               "calcium": "10-15mg/100g",
                "ration": "30g",
                "saison": [
                   "automne/hiver"
@@ -1273,7 +1273,7 @@
                   "Rafraichissant, riche en vitamines A, B, C",
                   "Préférez les mini concombres plus riches en chair et plus pauvre en pépins"
                ],
-               "taux_de_calcium": "20mg/100g"
+               "calcium": "20mg/100g"
             },
             {
                "nom": "Melon",
@@ -1281,7 +1281,7 @@
                   "Rafraichissant, riche en vitamines A, B, C",
                   "Retirez la peau et les pépins"
                ],
-               "taux_de_calcium": "8mg/100g"
+               "calcium": "8mg/100g"
             },
             {
                "nom": "Pastèque",
