@@ -3,8 +3,19 @@ const tables = [...document.querySelector('#contenu_corps_central').querySelecto
 const legumes = tables.map((table) => [
   table.previousElementSibling.innerText,
   [...table.rows].map((row) => {
-    const [name, description] = [...row.cells[1].children].map((element) => element.innerText)
-    return [name, description.replace(/^\n/, '').split('\n')]
+    const [name, ...description] = [...row.cells[1].childNodes]
+      .map((node) => node.innerText ?? node.data)
+      .filter((text) => !/^\s*$/.test(text))
+    return [
+      name,
+      description.flatMap((text) =>
+        text
+          .trim()
+          .split(/[\n\.]/)
+          .map((text) => text.trim())
+          .filter((text) => text.length > 0)
+      ),
+    ]
   }),
 ])
 
