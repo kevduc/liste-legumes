@@ -7,13 +7,13 @@ import { Parser } from 'json2csv'
 
 const outputFile = 'data/vegetable-lists.json'
 const inputFile = 'input.html'
-const url = 'https://www.ladureviedulapinurbain.com/listelegumes.php'
+const url = new URL('https://www.ladureviedulapinurbain.com/listelegumes.php')
 
 String.prototype.capitalize = function () {
   return this.replace(/^(.)/, (c) => c.toUpperCase())
 }
 
-let rawText = await readCachedFile(inputFile, async () => await (await fetch(url)).text())
+let rawText = await readCachedFile(inputFile, async () => await (await fetch(url.href)).text())
 
 const { document } = new JSDOM(rawText).window
 
@@ -37,11 +37,14 @@ const veggieLists = {
   listes: tables.map((table) => ({
     description: table.previousElementSibling.textContent.trim().replace(/\s*:\s*$/, ''),
     legumes: [...table.rows].map((row) => {
+      const img = row.cells[0].children[0]
+      const imgUrl = img !== undefined ? `${url.origin}${img.src}` : null
+
       const [name, ...info] = [...row.cells[1].childNodes]
         .map((node) => node.textContent ?? node.data)
         .filter((text) => !/^\s*$/.test(text))
 
-      const vegetableTemp = { nom: name.trim().capitalize() }
+      const vegetableTemp = { nom: name.trim().capitalize(), imgUrl }
 
       info
         .flatMap((text) =>
@@ -82,16 +85,30 @@ const veggieLists = {
 
 fs.writeFileSync(outputFile, JSON.stringify(veggieLists, null, 3))
 
-const allVeggies = [...veggieLists.listes[0].legumes, ...veggieLists.listes[1].legumes]
+// Convert to CSV file
 
-const csv = new Parser({
-  delimiter: ',',
-  transforms: (item) => ({
-    ...item,
-    description: item.description?.join('. '),
-    saisons: item.saisons?.join(', '),
-  }),
-}).parse(allVeggies)
+const allVeggies = [...veggieLists.listes[0].legumes, ...veggieLists.listes[1].legumes].sort((a, b) =>
+  a.nom.localeCompare(b.nom, 'fr')
+)
 
-const csvFile = `data/${path.basename(outputFile, path.extname(outputFile))}-oneline.csv`
-fs.writeFileSync(csvFile, csv)
+const csvFileName = `data/${path.basename(outputFile, path.extname(outputFile))}`
+
+;[
+  [false, false],
+  [false, true],
+  [true, false],
+  [true, true],
+].forEach(([oneLine, french]) => {
+  const csv = new Parser({
+    fields: ['nom', 'description', ...veggieProperties.map(([key]) => key)],
+    delimiter: french ? ';' : ',',
+    transforms: (item) => ({
+      ...item,
+      description: item.description?.join(oneLine ? '. ' : '\n'),
+      saisons: item.saisons?.join(', '),
+    }),
+  }).parse(allVeggies)
+
+  const csvFile = `${csvFileName}${french ? '-french' : ''}${oneLine ? '-oneline' : ''}.csv`
+  fs.writeFileSync(csvFile, csv)
+})

@@ -5,6 +5,7 @@
          "legumes": [
             {
                "nom": "Aneth",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/aneth.jpg",
                "description": [
                   "Herbe très appréciée des lapins, peut être remplacée par du fenouil sauvage ou les plumets du fenouil"
                ],
@@ -19,6 +20,7 @@
             },
             {
                "nom": "Arroche rouge ou verte",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/arroche.jpg",
                "description": [
                   "De la famille de l'épinard, l'arroche est une plante qui était beaucoup utilisée au moyen-âge puis a été remplacée par l'épinard",
                   "A ne proposer qu'en petite quantité de temps en temps"
@@ -27,6 +29,7 @@
             },
             {
                "nom": "Asperge",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/asperge.jpg",
                "description": [
                   "Probiotique naturel(fructo-oligiossacharidess) à donner en petite quantité",
                   "Peu apprécié"
@@ -37,6 +40,7 @@
             },
             {
                "nom": "Feuilles d'artichaut",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/artichaut.jpg",
                "description": [
                   "probiotique naturel(fructo-oligiossacharidess)",
                   "Uniquement les feuilles extérieures de la partie que nous consommons",
@@ -52,6 +56,7 @@
             },
             {
                "nom": "Avoine ou herbe à chat",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/avoine.jpg",
                "description": [
                   "Riche en vitamine K et fer"
                ],
@@ -62,6 +67,7 @@
             },
             {
                "nom": "Basilic",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/basilic.jpg",
                "description": [
                   "Riche en vitamine K et fer",
                   "Très apprécié des lapins"
@@ -73,12 +79,14 @@
             },
             {
                "nom": "Basilic sauvage/ montagnard",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/basilic2.jpg",
                "description": [
                   "Mêmes propriétés"
                ]
             },
             {
                "nom": "Basilic cannelle",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/basiliccannelle.jpg",
                "description": [
                   "Mêmes propriétés"
                ],
@@ -88,6 +96,7 @@
             },
             {
                "nom": "Basilic pourpre",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/basilic4.jpg",
                "description": [
                   "Mêmes propriétés"
                ],
@@ -97,6 +106,7 @@
             },
             {
                "nom": "Blé ou herbe à chat",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume55.jpg",
                "saisons": [
                   "toute l'année",
                   "peut être cultivée en intérieur"
@@ -104,6 +114,7 @@
             },
             {
                "nom": "Betterave",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/betterave.jpg",
                "description": [
                   "La racine est comestible mais peut rendre malades certains lapins plus fragiles",
                   "Elle peut provoquer des gaz ou diarrhées",
@@ -119,6 +130,7 @@
             },
             {
                "nom": "Blettes ou bettes",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/blettes.jpg",
                "description": [
                   "Les feuilles comme les cardes blanches sont comestibles mais les cardes sont peu appréciées",
                   "Les feuilles doivent être bien vertes",
@@ -135,6 +147,7 @@
             },
             {
                "nom": "Blettes, cardes ou poirées de couleurs",
+               "imgUrl": "https://www.ladureviedulapinurbain.comlegumes/carde.jpg",
                "description": [
                   "Cette variété est souvent préférée à la variété blanche",
                   "riche en oxalates et vitamines A, B6, E, B9, K et C",
@@ -149,6 +162,7 @@
             },
             {
                "nom": "Brocoli",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/brocoli.jpg",
                "description": [
                   "Fleurs et feuilles, la variété rouge est comestible elle aussi",
                   "riche en vitamine A, B2, C et oxalates",
@@ -165,6 +179,7 @@
             },
             {
                "nom": "Brocoli branche",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/brocolibranche.jpg",
                "description": [
                   "Les feuilles ainsi que le bourgeon central qui ressemble à une fleur de brocoli classique sont comestibles",
                   "riche en vitamine A, C, k et oxalates",
@@ -177,6 +192,7 @@
             },
             {
                "nom": "Carotte",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume3.jpg",
                "description": [
                   "A considérer comme un fruit chez le lapin ayant tendance à grossir car très riche en sucre(jusqu'à 4%)",
                   "Les carottes nouvelles sont légèrement moins caloriques (en vieillissant la carotte se charge en sucre)",
@@ -192,6 +208,7 @@
             },
             {
                "nom": "Carotte rouge",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/carotterouge.jpg",
                "description": [
                   "idem"
                ],
@@ -201,6 +218,7 @@
             },
             {
                "nom": "Carotte jaune",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/carottejaune.jpg",
                "description": [
                   "idem mais encore plus sucrée"
                ],
@@ -210,6 +228,7 @@
             },
             {
                "nom": "Carotte pourpre",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/carotte2.jpg",
                "description": [
                   "idem mais encore plus sucrée"
                ],
@@ -219,6 +238,7 @@
             },
             {
                "nom": "Céleri branche",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/celeri_b.jpg",
                "description": [
                   "Feuilles et branches",
                   "Attention : si votre lapin a des problèmes de molaires sectionnez les branches en tronçons de 1",
@@ -237,6 +257,7 @@
             },
             {
                "nom": "Céleri vivace / Ache des montagnes /livèche/céleri perpétuel",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/celeri_p.jpg",
                "description": [
                   "Feuilles et branches",
                   "Mêmes propriétés que le céleri branche"
@@ -244,6 +265,7 @@
             },
             {
                "nom": "Céleri rave",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume40.jpg",
                "description": [
                   "Feuilles et racine",
                   "Peu calorique, riche en fibres"
@@ -257,6 +279,7 @@
             },
             {
                "nom": "Cerfeuil",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/cerfeuil.jpg",
                "description": [
                   "Riche en calcium"
                ],
@@ -268,6 +291,7 @@
             },
             {
                "nom": "Cerfeuil tubéreux",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/cerfeuil2.jpg",
                "description": [
                   "Le feuillage est toxique mais la racine peut être consommée en petite quantité"
                ],
@@ -277,6 +301,7 @@
             },
             {
                "nom": "Chicorée de catalogne",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/chicoree_catalogne.jpg",
                "description": [
                   "Riche en calcium",
                   "A éviter si le lapin souffre de problèmes urinaires chroniques"
@@ -289,6 +314,7 @@
             },
             {
                "nom": "Chicorée Castellfranco",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/chicoree3.jpg",
                "description": [
                   "Riche en calcium",
                   "A éviter si le lapin souffre de problèmes urinaires chroniques"
@@ -300,6 +326,7 @@
             },
             {
                "nom": "Chicorée grumolo verde - chicorée amère",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/chicoree2.jpg",
                "description": [
                   "Riche en calcium",
                   "A éviter si le lapin souffre de problèmes urinaires chroniques"
@@ -311,6 +338,7 @@
             },
             {
                "nom": "Chicorée pain de sucre",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/paindesucre.jpg",
                "description": [
                   "Riche en calcium",
                   "A éviter si le lapin souffre de problèmes urinaires chroniques"
@@ -322,6 +350,7 @@
             },
             {
                "nom": "Chou de Shangai Bok choy/ Shangai pak choi",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume16.jpg",
                "description": [
                   "Riche en vitamines C",
                   "Attention, les feuilles doivent être bien vertes sinon elles sont toxiques",
@@ -336,6 +365,7 @@
             },
             {
                "nom": "Chou de pékin Pé-tsaï",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/petsai.jpg",
                "description": [
                   "Riche en vitamines C",
                   "Attention, les feuilles doivent être bien vertes sinon elles sont toxiques",
@@ -354,6 +384,7 @@
             },
             {
                "nom": "Chou branche ou chou à vache ou chou bricolin",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/bricolin.jpg",
                "description": [
                   "Riche en vitamines C",
                   "Attention, les feuilles doivent être bien vertes sinon elles sont toxiques",
@@ -368,6 +399,7 @@
             },
             {
                "nom": "Chou frisé non pommé (kale)",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/kale.jpg",
                "description": [
                   "Riche en calcium",
                   "A éviter si le lapin souffre de problèmes urinaires chroniques",
@@ -384,6 +416,7 @@
             },
             {
                "nom": "Chou de Bruxelles",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/choubruxelles.jpg",
                "description": [
                   "Riche en vitamines B6 et C",
                   "Pauvre en Calcium",
@@ -400,6 +433,7 @@
             },
             {
                "nom": "Chou cabus",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/cabus.jpg",
                "description": [
                   "Comme tous les choux il doit être donné en petite quantité"
                ],
@@ -409,6 +443,7 @@
             },
             {
                "nom": "Chou fleur blanc",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume14.jpg",
                "description": [
                   "Fleurs et feuilles",
                   "Riche en vitamine A, B et oxalates",
@@ -429,6 +464,7 @@
             },
             {
                "nom": "Chou fleur vert",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/chou1.jpg",
                "description": [
                   "Fleurs et feuilles",
                   "Mêmes caractéristiques que le chou fleur blanc"
@@ -441,6 +477,7 @@
             },
             {
                "nom": "Chou fleur orange",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/chou4.jpg",
                "description": [
                   "Fleurs et feuilles",
                   "Mêmes caractéristiques que le chou fleur blanc"
@@ -452,6 +489,7 @@
             },
             {
                "nom": "Chou fleur violet",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/chouviolet.jpg",
                "description": [
                   "Fleurs et feuilles",
                   "Mêmes caractéristiques que le chou fleur blanc"
@@ -464,6 +502,7 @@
             },
             {
                "nom": "Chou frisé",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/choufrise.jpg",
                "description": [
                   "Uniquement les feuilles bien vertes jamais de feuilles jaunies",
                   "Si votre lapin doit avoir un régime pauvre en calcium, donnez lui les feuilles centrales les plus blanches",
@@ -482,6 +521,7 @@
             },
             {
                "nom": "Chou rave (chou navet en Belgique, colrave, kohlrabi ou chou pomme en Suisse)",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume60.jpg",
                "description": [
                   "Comme tous les choux il doit être donné en petite quantité",
                   "Le bulbe ainsi que les feuilles sont comestibles",
@@ -493,6 +533,7 @@
             },
             {
                "nom": "Chou rave violet",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/chouraveviolet.jpg",
                "description": [
                   "Mêmes caractéristiques que la version verte"
                ],
@@ -502,6 +543,7 @@
             },
             {
                "nom": "Chou romanesco",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/romanesco.jpg",
                "description": [
                   "Comme tous les choux il doit être donné en petite quantité",
                   "S'utilise comme le chou fleur"
@@ -512,12 +554,14 @@
             },
             {
                "nom": "Ciboulette",
+               "imgUrl": "https://www.ladureviedulapinurbain.comlegumes/ciboulette.jpg",
                "description": [
                   "Attention : grignotée en petite quantité et rarement elle est sans danger mais elle ne doit pas faire partie des herbes habituelles de vos lapins car fait partie de la famille de l'oignon et de l'aïl qui sont toxiques"
                ]
             },
             {
                "nom": "Coriandre",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/coriandre.jpg",
                "description": [
                   "Très appréciée des lapins",
                   "Riche en calcium",
@@ -534,6 +578,7 @@
             },
             {
                "nom": "Cosses de pois",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/cossepois.jpg",
                "description": [
                   "Attention ne pas donner les pois qui eux sont toxiques",
                   "C'est un légume qui rebute un peu au début mais le lapin s'y fait rapidement"
@@ -545,6 +590,7 @@
             },
             {
                "nom": "Cresson",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume4.jpg",
                "description": [
                   "riche en vitamines A et C, riche en calcium, à donner en petite quantité",
                   "Propriétés diurétiques"
@@ -558,6 +604,7 @@
             },
             {
                "nom": "Cresson de jardin",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/cresson2.jpg",
                "description": [
                   "riche en vitamines A et C, riche en calcium, à donner en petite quantité",
                   "Propriétés diurétiques"
@@ -571,6 +618,7 @@
             },
             {
                "nom": "Cresson alénois",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume41.jpg",
                "description": [
                   "riche en vitamines A et C, riche en calcium, à donner en petite quantité"
                ],
@@ -582,6 +630,7 @@
             },
             {
                "nom": "Endive-chicon",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/endive.jpg",
                "description": [
                   "riche en vitamines A, peu nutritive",
                   "Très appréciée des lapins, c'est un bon légume pour débuter l'introduction des légumes dans le régime alimentaire",
@@ -597,6 +646,7 @@
             },
             {
                "nom": "Endive carmine",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/carmine.jpg",
                "description": [
                   "Même qualités que la variété blanche"
                ],
@@ -607,6 +657,7 @@
             },
             {
                "nom": "Epinard",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume24.jpg",
                "description": [
                   "Uniquement les feuilles bien vertes( pousses ou feuilles )",
                   "riche en oxalates, magnesium, fer et vitamines A et C et calcium",
@@ -623,6 +674,7 @@
             },
             {
                "nom": "Epinard géant d'hiver",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/epinard.jpg",
                "description": [
                   "Uniquement les feuilles bien vertes",
                   "riche en oxalates, magnesium, fer et vitamines A et C et calcium",
@@ -636,6 +688,7 @@
             },
             {
                "nom": "Epinard géant",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/epinard2.jpg",
                "description": [
                   "Uniquement les feuilles bien vertes",
                   "riche en oxalates, magnesium, fer et vitamines A et C et calcium",
@@ -649,6 +702,7 @@
             },
             {
                "nom": "Estragon",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/estragon.jpg",
                "description": [
                   "Plantes appréciée des lapins",
                   "Attention, l'estragon du mexique n'est pas de l'estragon et il a en plus des propriétés hallucinogènes",
@@ -661,6 +715,7 @@
             },
             {
                "nom": "Fanes de carottes",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/fanecarotte.jpg",
                "description": [
                   "Riches en calcium, fer et vitamines A B1 B2 B6 et C"
                ],
@@ -672,6 +727,7 @@
             },
             {
                "nom": "Fenouil",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume52.jpg",
                "description": [
                   "Tout se mange, le bulbe comme le feuillage",
                   "Dans le commerce on ne trouve malheureusement que le bulbe, c'est bien dommage car les lapins adorent le feuillage du fenouil qui a un délicieux goût d'aneth",
@@ -688,6 +744,7 @@
             },
             {
                "nom": "Fenouil pourpre",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/fenouilpourpre.jpg",
                "description": [
                   "Riche en potassium, calcium et vitamine A, B8 et B9C"
                ],
@@ -699,6 +756,7 @@
             },
             {
                "nom": "Fenouil vivace",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/fenouilperpetuel.jpg",
                "description": [
                   "Riche en potassium, calcium et vitamine A, B8 et B9C"
                ],
@@ -710,6 +768,7 @@
             },
             {
                "nom": "Feuille de fraisier",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume53.jpg",
                "description": [
                   "C'est un aliment très apprécié !"
                ],
@@ -721,6 +780,7 @@
             },
             {
                "nom": "Feuille de framboisier",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume46.jpg",
                "description": [
                   "C'est un aliment très apprécié !"
                ],
@@ -732,6 +792,7 @@
             },
             {
                "nom": "Feuilles de radis",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/feuilleradis.jpg",
                "description": [
                   "Le radis est à éviter car il peut provoquer des ballonnements chez certains lapins, mais les feuilles sont comestibles et sans danger",
                   "Attention, les feuilles doivent être bien vertes sinon elles sont toxiques",
@@ -746,6 +807,7 @@
             },
             {
                "nom": "Feuilles de tournesol",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/tournesol.jpg",
                "description": [
                   "Les feuilles sont entièrement comestibles (choisissez des graines au rayon légumes et pas au rayon fleurs si possible)",
                   "Les pétales sont eux aussi comestibles, mais évitez de donner les fleurs entières, votre lapin ferait une orgies de graines ce qui pourrait provoquer des troubles digestifs",
@@ -759,6 +821,7 @@
             },
             {
                "nom": "Haricots verts",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/haricot.jpg",
                "description": [
                   "Ne pas donner de haricots verts aux lapins qui ont un système digestif fragile, ils peuvent les rendre malades",
                   "A donner en petite quantité(2-3)"
@@ -771,6 +834,7 @@
             },
             {
                "nom": "Mâche",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume9.jpg",
                "description": [
                   "Bien nettoyer car la mâche contient beaucoup de sable",
                   "Riche en vitamine A, B, C"
@@ -784,6 +848,7 @@
             },
             {
                "nom": "Marjolaine",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/marjolaine.jpg",
                "saisons": [
                   "printemps",
                   "été"
@@ -791,6 +856,7 @@
             },
             {
                "nom": "Menthe",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/menthe1.jpg",
                "description": [
                   "Riche en calcium"
                ],
@@ -804,12 +870,14 @@
             },
             {
                "nom": "Mizuna",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume66.jpg",
                "saisons": [
                   "toute l'année"
                ]
             },
             {
                "nom": "Moutarde rouge",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume35.jpg",
                "saisons": [
                   "toute l'année"
                ],
@@ -817,6 +885,7 @@
             },
             {
                "nom": "Moutarde",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/moutarde.jpg",
                "saisons": [
                   "toute l'année"
                ],
@@ -824,6 +893,7 @@
             },
             {
                "nom": "Moutarde violette dentelée",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/moutarde2.jpg",
                "saisons": [
                   "toute l'année"
                ],
@@ -831,6 +901,7 @@
             },
             {
                "nom": "Navet rose ou blanc, rave (Suisse)",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/navet.jpg",
                "description": [
                   "Feuilles sans problème mais racine en quantité limitée, pas plus d'une fois par semaine",
                   "Feuilles riches en calcium",
@@ -845,18 +916,21 @@
             },
             {
                "nom": "Navet rond jaune d'or",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/navetjaune.jpg",
                "description": [
                   "Mêmes caractéristiques que le navet rose ou blanc"
                ]
             },
             {
                "nom": "Origan",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/origan.jpg",
                "saisons": [
                   "été"
                ]
             },
             {
                "nom": "Ortie blanche",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/ortieblanche.jpg",
                "description": [
                   "Ne pique pas contrairement à l'ortie sauvage"
                ],
@@ -866,6 +940,7 @@
             },
             {
                "nom": "Panais",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/panais.jpg",
                "description": [
                   "Légume racine de la même famille que la carotte",
                   "Il est lui aussi très riche",
@@ -885,6 +960,7 @@
             },
             {
                "nom": "Persil plat",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume12.jpg",
                "description": [
                   "A préférer au persil frisé car il est plus riche en vitamines",
                   "Le persil doit être consommé bien frais sinon il est toxique(quand il jaunit)",
@@ -903,6 +979,7 @@
             },
             {
                "nom": "Persil racine",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/persilracine.jpg",
                "description": [
                   "Racine et feuillage sont comestibles",
                   "Riche en vitamine C"
@@ -910,6 +987,7 @@
             },
             {
                "nom": "Pissenlit sauvage ou cultivé",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/pissenlit.jpg",
                "description": [
                   "Toutes les parties sont comestibles : feuilles, fleurs et racines",
                   "Riche en vitamines A et C et en calcium, Diurétique",
@@ -928,6 +1006,7 @@
             },
             {
                "nom": "Pissenlit blanc",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/pissenlitblanc.jpg",
                "description": [
                   "Mêmes caractéristiques",
                   "il est moins riche en calcium"
@@ -939,6 +1018,7 @@
             },
             {
                "nom": "Pois mangetout ou pois gourmands",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/pois.jpg",
                "description": [
                   "En petite quantité uniquement"
                ],
@@ -948,6 +1028,7 @@
             },
             {
                "nom": "Poivron",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/poivron.jpg",
                "description": [
                   "Ne doit pas être donné de manière régulière ni en grande quantité",
                   "C'est juste un petit \"plus\" pour varier\" le menu",
@@ -960,6 +1041,7 @@
             },
             {
                "nom": "Pourpier doré",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/pourpier.jpg",
                "calcium": "79mg/100g",
                "ration": "10g de pourpier",
                "saisons": [
@@ -968,12 +1050,14 @@
             },
             {
                "nom": "Racine de pissenlit",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume51.jpg",
                "description": [
                   "Bien laver et sécher"
                ]
             },
             {
                "nom": "Romarin",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/romarin.jpg",
                "saisons": [
                   "printemps",
                   "été",
@@ -982,6 +1066,7 @@
             },
             {
                "nom": "Ronces ou feuilles de mûrier",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume45.jpg",
                "saisons": [
                   "printemps",
                   "été"
@@ -989,6 +1074,7 @@
             },
             {
                "nom": "Roquette sauvage",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume36.jpg",
                "saisons": [
                   "été",
                   "automne"
@@ -996,6 +1082,7 @@
             },
             {
                "nom": "Roquette plein champs",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume44.jpg",
                "saisons": [
                   "été",
                   "automne"
@@ -1003,6 +1090,7 @@
             },
             {
                "nom": "Roquette cultivée-Ruccola",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume39.jpg",
                "saisons": [
                   "été",
                   "automne"
@@ -1010,6 +1098,7 @@
             },
             {
                "nom": "Rutabaga à collet rose - chou navet",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume63.jpg",
                "description": [
                   "Pauvre en calories, riche en vitamine C, un complément idéal pour l'hiver en petite quantité",
                   "Ce légume est riche en amidon et ne doit pas être donné aux lapins qui souffrent déjà de crottes molles chroniques et qui ont une alimentation riche ( granulés)",
@@ -1023,6 +1112,7 @@
             },
             {
                "nom": "Rutabaga à collet vert",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/rutabaga.jpg",
                "description": [
                   "Mêmes caractéristiques que le rutabaga à collet rose"
                ],
@@ -1032,6 +1122,7 @@
             },
             {
                "nom": "Salade Batavia",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume47.jpg",
                "saisons": [
                   "printemps",
                   "été",
@@ -1043,6 +1134,7 @@
             },
             {
                "nom": "Salade Batavia rouge",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/batavia.jpg",
                "saisons": [
                   "printemps",
                   "été",
@@ -1054,6 +1146,7 @@
             },
             {
                "nom": "Salade cressonnette marocaine",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/cressonnette.jpg",
                "description": [
                   "riche en vitamines, potassium, magnésium",
                   "Appartient à la famille de la laitue et non à celle du cresson",
@@ -1066,12 +1159,14 @@
             },
             {
                "nom": "Salade Feuille de chêne-Eichblatt",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume31.jpg",
                "description": [
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ]
             },
             {
                "nom": "Salade hussarde",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/hussarde.jpg",
                "description": [
                   "riche en vitamines, potassium, magnésium",
                   "Appartient à la famille de la laitue",
@@ -1086,6 +1181,7 @@
             },
             {
                "nom": "Salade Frisée",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume13.jpg",
                "description": [
                   "Riche en calcium comme toutes les chicorées",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
@@ -1094,36 +1190,42 @@
             },
             {
                "nom": "Salade Laitue asperge",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/laitueasperge.jpg",
                "description": [
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ]
             },
             {
                "nom": "Salade lolo rossa",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/lolo.jpg",
                "description": [
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ]
             },
             {
                "nom": "Salade multi-feuille",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/multifeuille.jpg",
                "description": [
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ]
             },
             {
                "nom": "Salade multi-feuille rouge",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/multi.jpg",
                "description": [
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ]
             },
             {
                "nom": "Salade Reine des glaces",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/reine.jpg",
                "description": [
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ]
             },
             {
                "nom": "Salade Romaine",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume58.jpg",
                "description": [
                   "L'une des salades préférées des lapins car elles est bien croquante",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
@@ -1138,6 +1240,7 @@
             },
             {
                "nom": "Salade rougette",
+               "imgUrl": "https://www.ladureviedulapinurbain.comlegumes/rougette.jpg",
                "description": [
                   "L'une des salades préférées des lapins car elles est bien croquante",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
@@ -1149,6 +1252,7 @@
             },
             {
                "nom": "Salade Scarole",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/scarole.jpg",
                "description": [
                   "Riche en calcium et vitamine A",
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
@@ -1161,6 +1265,7 @@
             },
             {
                "nom": "Salade Sucrine (laitue d'hiver)",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/sucrine.jpg",
                "description": [
                   "C'est une variété de laitue, elle doit donc être donnée en quantité limitée",
                   "Ne pas acheter en supermarché car ils vendent sous l'appellation sucrine des coeurs de laitue sans aucune valeur nutritive",
@@ -1174,6 +1279,7 @@
             },
             {
                "nom": "Sarriette",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/sarriette.jpg",
                "saisons": [
                   "été",
                   "automne"
@@ -1181,6 +1287,7 @@
             },
             {
                "nom": "Serpolet",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/jardin46.jpg",
                "saisons": [
                   "été",
                   "automne"
@@ -1188,6 +1295,7 @@
             },
             {
                "nom": "Tat-soï (pousses de )",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/tatsoi.jpg",
                "description": [
                   "Uniquement les feuilles bien vertes",
                   "Riche en calcium, viatme A, C et K, doit être donné en petite quantité"
@@ -1195,6 +1303,7 @@
             },
             {
                "nom": "Tétragone ou épinard d'été",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/tetragone.jpg",
                "description": [
                   "Uniquement les feuilles bien vertes",
                   "riche en oxalates, magnesium, fer et vitamines A et C et calcium",
@@ -1208,6 +1317,7 @@
             },
             {
                "nom": "Thym",
+               "imgUrl": "https://www.ladureviedulapinurbain.comlegumes/thym.jpg",
                "saisons": [
                   "été",
                   "automne"
@@ -1215,6 +1325,7 @@
             },
             {
                "nom": "Thym citron",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/thymcitron.jpg",
                "saisons": [
                   "été",
                   "automne"
@@ -1222,6 +1333,7 @@
             },
             {
                "nom": "Topinambour",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/legume27.jpg",
                "description": [
                   "Il peut être plus ou moins jaune ou rose selon les espèces",
                   "Riche en potassium et vitamine C pauvre en calcium, peu calorique mais nutritif",
@@ -1239,6 +1351,7 @@
             },
             {
                "nom": "Topinambour violet",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/topi.jpg",
                "description": [
                   "Mêmes caractéristiques"
                ],
@@ -1249,6 +1362,7 @@
             },
             {
                "nom": "Topinambour blanc",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/topinambour.jpg",
                "description": [
                   "Mêmes caractéristiques que le topinambour blond ou rose"
                ],
@@ -1259,6 +1373,7 @@
             },
             {
                "nom": "Trévise (chicorée)",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/trevise.jpg",
                "description": [
                   "Riche en calcium"
                ],
@@ -1269,6 +1384,7 @@
             },
             {
                "nom": "Verveine citron",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/verveine.jpg",
                "saisons": [
                   "printemps",
                   "été"
@@ -1281,6 +1397,7 @@
          "legumes": [
             {
                "nom": "Concombre",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/concombre.jpg",
                "description": [
                   "Rafraichissant, riche en vitamines A, B, C",
                   "Préférez les mini concombres plus riches en chair et plus pauvre en pépins"
@@ -1289,6 +1406,7 @@
             },
             {
                "nom": "Melon",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/melon2.jpg",
                "description": [
                   "Rafraichissant, riche en vitamines A, B, C",
                   "Retirez la peau et les pépins"
@@ -1297,12 +1415,14 @@
             },
             {
                "nom": "Pastèque",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/pasteque.jpg",
                "description": [
                   "Rafraichissant"
                ]
             },
             {
                "nom": "Tomate",
+               "imgUrl": "https://www.ladureviedulapinurbain.com/legumes/tomate.jpg",
                "description": [
                   "Uniquement la chair",
                   "Feuilles, tiges et pépins sont toxiques"
