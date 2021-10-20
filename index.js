@@ -88,10 +88,10 @@ const csv = new Parser({
   delimiter: ',',
   transforms: (item) => ({
     ...item,
-    description: item.description?.join('\r\n'),
+    description: item.description?.join('. '),
     saisons: item.saisons?.join(', '),
   }),
 }).parse(allVeggies)
 
-const csvFile = `data/${path.basename(outputFile, path.extname(outputFile))}.csv`
+const csvFile = `data/${path.basename(outputFile, path.extname(outputFile))}-oneline.csv`
 fs.writeFileSync(csvFile, csv)
