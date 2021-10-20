@@ -85,7 +85,7 @@ fs.writeFileSync(outputFile, JSON.stringify(veggieLists, null, 3))
 const allVeggies = [...veggieLists.listes[0].legumes, ...veggieLists.listes[1].legumes]
 
 const csv = new Parser({
-  delimiter: ';',
+  delimiter: ',',
   transforms: (item) => ({
     ...item,
     description: item.description?.join('\r\n'),
@@ -93,5 +93,5 @@ const csv = new Parser({
   }),
 }).parse(allVeggies)
 
-const csvFile = `data/${path.basename(outputFile, path.extname(outputFile))}-french.csv`
+const csvFile = `data/${path.basename(outputFile, path.extname(outputFile))}.csv`
 fs.writeFileSync(csvFile, csv)
