@@ -88,7 +88,7 @@ const csv = new Parser({
   delimiter: ';',
   transforms: (item) => ({
     ...item,
-    description: item.description?.join('\n'),
+    description: item.description?.join('\r\n'),
     saisons: item.saisons?.join(', '),
   }),
 }).parse(allVeggies)
