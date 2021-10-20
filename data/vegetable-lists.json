@@ -850,7 +850,7 @@
                ]
             },
             {
-               "nom": "origan",
+               "nom": "Origan",
                "saisons": [
                   "été"
                ]
@@ -1093,7 +1093,7 @@
                "calcium": "55mg/100g"
             },
             {
-               "nom": "salade Laitue asperge",
+               "nom": "Salade Laitue asperge",
                "description": [
                   "Ne doit pas être donné aux lapins qui ne sont pas habitués à la verdure"
                ]
@@ -1258,7 +1258,7 @@
                ]
             },
             {
-               "nom": "trévise (chicorée)",
+               "nom": "Trévise (chicorée)",
                "description": [
                   "Riche en calcium"
                ],
@@ -1268,7 +1268,7 @@
                ]
             },
             {
-               "nom": "verveine citron",
+               "nom": "Verveine citron",
                "saisons": [
                   "printemps",
                   "été"

@@ -1,20 +1,19 @@
 import fs from 'fs'
-
+import path from 'path'
 import fetch from 'node-fetch'
 import { JSDOM } from 'jsdom'
+import readCachedFile from 'read-cached-file'
+import { Parser } from 'json2csv'
 
-const outputFile = 'vegetable-lists.json'
+const outputFile = 'data/vegetable-lists.json'
 const inputFile = 'input.html'
 const url = 'https://www.ladureviedulapinurbain.com/listelegumes.php'
 
-let rawText = null
-
-if (fs.existsSync(inputFile)) {
-  rawText = fs.readFileSync(inputFile, 'utf8')
-} else {
-  rawText = await (await fetch(url)).text()
-  fs.writeFileSync(inputFile, rawText)
+String.prototype.capitalize = function () {
+  return this.replace(/^(.)/, (c) => c.toUpperCase())
 }
+
+let rawText = await readCachedFile(inputFile, async () => await (await fetch(url)).text())
 
 const { document } = new JSDOM(rawText).window
 
@@ -26,6 +25,7 @@ const veggieProperties = [
   ['oxalates', 'oxalates'],
   ['ration', '(?:une|1)?\\s*ration'],
 ]
+
 const veggiePropertiesRegex = new RegExp(
   `^\\s*(?:${veggieProperties
     .map(([property, regex]) => `(?<${property}>${regex})`)
@@ -41,7 +41,8 @@ const veggieLists = {
         .map((node) => node.textContent ?? node.data)
         .filter((text) => !/^\s*$/.test(text))
 
-      const vegetableTemp = { nom: name.trim() }
+      const vegetableTemp = { nom: name.trim().capitalize() }
+
       info
         .flatMap((text) =>
           text
@@ -79,12 +80,18 @@ const veggieLists = {
   })),
 }
 
-// const allVeggies = [...veggieLists.listes[0].legumes, ...veggieLists.listes[1].legumes]
-// const seasonRegex = /^printemps|été|automne|hiver|toute l'année$/
-// console.table(
-//   allVeggies
-//     .map((veggie) => veggie.saisons?.map((saison) => [saison, seasonRegex.test(saison)]))
-//     .filter((tests) => tests?.some(([, result]) => result === false))
-// )
-
 fs.writeFileSync(outputFile, JSON.stringify(veggieLists, null, 3))
+
+const allVeggies = [...veggieLists.listes[0].legumes, ...veggieLists.listes[1].legumes]
+
+const csv = new Parser({
+  delimiter: ';',
+  transforms: (item) => ({
+    ...item,
+    description: item.description?.join('\n'),
+    saisons: item.saisons?.join(', '),
+  }),
+}).parse(allVeggies)
+
+const csvFile = `data/${path.basename(outputFile, path.extname(outputFile))}-french.csv`
+fs.writeFileSync(csvFile, csv)

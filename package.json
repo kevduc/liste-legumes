@@ -19,7 +19,11 @@
   "homepage": "https://github.com/kevduc/liste-legumes#readme",
   "dependencies": {
     "jsdom": "^17.0.0",
-    "node-fetch": "^3.0.0"
+    "json2csv": "^5.0.6",
+    "node-fetch": "^3.0.0",
+    "read-cached-file": "^1.0.4",
+    "stopwords-fr": "^0.3.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {}
 }
