@@ -87,11 +87,11 @@ fs.writeFileSync(outputFile, JSON.stringify(veggieLists, null, 3))
 
 // Convert to CSV file
 
-const queFortesChaleursProperty = 'queFortesChaleurs'
+const quePendantFortesChaleursProperty = 'quePendantFortesChaleurs'
 
 const allVeggies = [
   ...veggieLists.listes[0].legumes,
-  ...veggieLists.listes[1].legumes.map((legume) => ({ ...legume, [queFortesChaleursProperty]: true })),
+  ...veggieLists.listes[1].legumes.map((legume) => ({ ...legume, [quePendantFortesChaleursProperty]: true })),
 ].sort((a, b) => a.nom.localeCompare(b.nom, 'fr'))
 
 const csvFileName = `data/${path.basename(outputFile, path.extname(outputFile))}`
@@ -103,7 +103,7 @@ const csvFileName = `data/${path.basename(outputFile, path.extname(outputFile))}
   [true, true],
 ].forEach(([oneLine, french]) => {
   const csv = new Parser({
-    fields: ['nom', 'description', ...veggieProperties.map(([key]) => key), queFortesChaleursProperty],
+    fields: ['nom', 'description', ...veggieProperties.map(([key]) => key), quePendantFortesChaleursProperty],
     delimiter: french ? ';' : ',',
     transforms: (item) => ({
       ...item,
